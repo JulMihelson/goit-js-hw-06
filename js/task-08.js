@@ -9,8 +9,8 @@ form.addEventListener("submit", () => {
       alert("Всі поля повинні бути заповнені!");
     } else {
       const info = { email, password };
+      return info;
     }
-    return info;
   });
   form.reset();
 });
